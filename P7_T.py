@@ -20,3 +20,7 @@ font = pygame.font.Font("freesansbold.ttf", 32)
     
     pygame.display.update()
     # Delay the program by 1
+
+if countdown == 0:
+    pygame.quit()
+    sys.exit()
